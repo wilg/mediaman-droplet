@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BAF40F015EB74C000D8B868 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAF40EF15EB74C000D8B868 /* Cocoa.framework */; };
+		3BAF40FA15EB74C000D8B868 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BAF40F815EB74C000D8B868 /* InfoPlist.strings */; };
+		3BAF40FC15EB74C000D8B868 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAF40FB15EB74C000D8B868 /* main.m */; };
+		3BAF410015EB74C000D8B868 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3BAF40FE15EB74C000D8B868 /* Credits.rtf */; };
+		3BAF410315EB74C000D8B868 /* MMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAF410215EB74C000D8B868 /* MMAppDelegate.m */; };
+		3BAF410615EB74C000D8B868 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BAF410415EB74C000D8B868 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BAF40EB15EB74C000D8B868 /* Mediaman Droplet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mediaman Droplet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BAF40EF15EB74C000D8B868 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3BAF40F215EB74C000D8B868 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3BAF40F315EB74C000D8B868 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3BAF40F415EB74C000D8B868 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3BAF40F715EB74C000D8B868 /* Mediaman Droplet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mediaman Droplet-Info.plist"; sourceTree = "<group>"; };
+		3BAF40F915EB74C000D8B868 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3BAF40FB15EB74C000D8B868 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BAF40FD15EB74C000D8B868 /* Mediaman Droplet-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mediaman Droplet-Prefix.pch"; sourceTree = "<group>"; };
+		3BAF40FF15EB74C000D8B868 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3BAF410115EB74C000D8B868 /* MMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMAppDelegate.h; sourceTree = "<group>"; };
+		3BAF410215EB74C000D8B868 /* MMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMAppDelegate.m; sourceTree = "<group>"; };
+		3BAF410515EB74C000D8B868 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BAF40E815EB74C000D8B868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BAF40F015EB74C000D8B868 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BAF40E015EB74C000D8B868 = {
+			isa = PBXGroup;
+			children = (
+				3BAF40F515EB74C000D8B868 /* Mediaman Droplet */,
+				3BAF40EE15EB74C000D8B868 /* Frameworks */,
+				3BAF40EC15EB74C000D8B868 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BAF40EC15EB74C000D8B868 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BAF40EB15EB74C000D8B868 /* Mediaman Droplet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BAF40EE15EB74C000D8B868 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BAF40EF15EB74C000D8B868 /* Cocoa.framework */,
+				3BAF40F115EB74C000D8B868 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BAF40F115EB74C000D8B868 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BAF40F215EB74C000D8B868 /* AppKit.framework */,
+				3BAF40F315EB74C000D8B868 /* CoreData.framework */,
+				3BAF40F415EB74C000D8B868 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3BAF40F515EB74C000D8B868 /* Mediaman Droplet */ = {
+			isa = PBXGroup;
+			children = (
+				3BAF410115EB74C000D8B868 /* MMAppDelegate.h */,
+				3BAF410215EB74C000D8B868 /* MMAppDelegate.m */,
+				3BAF410415EB74C000D8B868 /* MainMenu.xib */,
+				3BAF40F615EB74C000D8B868 /* Supporting Files */,
+			);
+			path = "Mediaman Droplet";
+			sourceTree = "<group>";
+		};
+		3BAF40F615EB74C000D8B868 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BAF40F715EB74C000D8B868 /* Mediaman Droplet-Info.plist */,
+				3BAF40F815EB74C000D8B868 /* InfoPlist.strings */,
+				3BAF40FB15EB74C000D8B868 /* main.m */,
+				3BAF40FD15EB74C000D8B868 /* Mediaman Droplet-Prefix.pch */,
+				3BAF40FE15EB74C000D8B868 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BAF40EA15EB74C000D8B868 /* Mediaman Droplet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BAF410915EB74C000D8B868 /* Build configuration list for PBXNativeTarget "Mediaman Droplet" */;
+			buildPhases = (
+				3BAF40E715EB74C000D8B868 /* Sources */,
+				3BAF40E815EB74C000D8B868 /* Frameworks */,
+				3BAF40E915EB74C000D8B868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mediaman Droplet";
+			productName = "Mediaman Droplet";
+			productReference = 3BAF40EB15EB74C000D8B868 /* Mediaman Droplet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BAF40E215EB74C000D8B868 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MM;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Wil Gieseler";
+			};
+			buildConfigurationList = 3BAF40E515EB74C000D8B868 /* Build configuration list for PBXProject "Mediaman Droplet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3BAF40E015EB74C000D8B868;
+			productRefGroup = 3BAF40EC15EB74C000D8B868 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BAF40EA15EB74C000D8B868 /* Mediaman Droplet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BAF40E915EB74C000D8B868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BAF40FA15EB74C000D8B868 /* InfoPlist.strings in Resources */,
+				3BAF410015EB74C000D8B868 /* Credits.rtf in Resources */,
+				3BAF410615EB74C000D8B868 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BAF40E715EB74C000D8B868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BAF40FC15EB74C000D8B868 /* main.m in Sources */,
+				3BAF410315EB74C000D8B868 /* MMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3BAF40F815EB74C000D8B868 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BAF40F915EB74C000D8B868 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3BAF40FE15EB74C000D8B868 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BAF40FF15EB74C000D8B868 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3BAF410415EB74C000D8B868 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BAF410515EB74C000D8B868 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BAF410715EB74C000D8B868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3BAF410815EB74C000D8B868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3BAF410A15EB74C000D8B868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mediaman Droplet/Mediaman Droplet-Prefix.pch";
+				INFOPLIST_FILE = "Mediaman Droplet/Mediaman Droplet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3BAF410B15EB74C000D8B868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mediaman Droplet/Mediaman Droplet-Prefix.pch";
+				INFOPLIST_FILE = "Mediaman Droplet/Mediaman Droplet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BAF40E515EB74C000D8B868 /* Build configuration list for PBXProject "Mediaman Droplet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BAF410715EB74C000D8B868 /* Debug */,
+				3BAF410815EB74C000D8B868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BAF410915EB74C000D8B868 /* Build configuration list for PBXNativeTarget "Mediaman Droplet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BAF410A15EB74C000D8B868 /* Debug */,
+				3BAF410B15EB74C000D8B868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BAF40E215EB74C000D8B868 /* Project object */;
+}
